@@ -1,186 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
-     <loc>None</loc>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+     <loc>/index.html</loc>
      <lastmod>2021-03-01</lastmod>
      <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
+    </url>
+    <url>
+     <loc>/GettingStarted/index.html</loc>
      <lastmod>2021-03-01</lastmod>
      <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
+    </url>
+    <url>
+     <loc>/Building_Your_Integrations/Jenkins/index.html</loc>
      <lastmod>2021-03-01</lastmod>
      <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
+    </url>
+    <url>
+     <loc>/References/CLI_References/environment/index.html</loc>
      <lastmod>2021-03-01</lastmod>
      <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
+    </url>
+    <url>
+     <loc>/References/CLI_References/database/index.html</loc>
      <lastmod>2021-03-01</lastmod>
      <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
+    </url>
+    <url>
+     <loc>/References/CLI_References/snapshot/index.html</loc>
      <lastmod>2021-03-01</lastmod>
      <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
+    </url>
+    <url>
+     <loc>/References/CLI_References/template/index.html</loc>
      <lastmod>2021-03-01</lastmod>
      <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
+    </url>
+    <url>
+     <loc>/References/CLI_References/container/index.html</loc>
      <lastmod>2021-03-01</lastmod>
      <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
+    </url>
+    <url>
+     <loc>/References/CLI_References/bookmark/index.html</loc>
      <lastmod>2021-03-01</lastmod>
      <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
+    </url>
+    <url>
+     <loc>/References/CLI_References/branch/index.html</loc>
      <lastmod>2021-03-01</lastmod>
      <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
+    </url>
+    <url>
+     <loc>/References/Library_References/LibrayReference/index.html</loc>
      <lastmod>2021-03-01</lastmod>
      <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>None</loc>
+    </url>
+    <url>
+     <loc>/Release_Notes/0.1.0_CA/ReleaseNotes/index.html</loc>
      <lastmod>2021-03-01</lastmod>
      <changefreq>daily</changefreq>
     </url>
