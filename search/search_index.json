@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/index.html",
-            "text": "Overview\n\u00b6\n\n\nDelphix Integrations is Delphix's response to address the lack of data agility that many organizations face today in their DevOps, ProdOps and AI/ML workflows. \nMany of these ecosystems have solved the automation of code and infrastructure but still face a data bottlenecks. \nOur focus is to simplify the integration of Delphix operations into these ecosystems and to plug-in the required data agility into these workflows that are frequently used by developers, testers, analysts and administrators.\n\n\ndxi, the first release from Delphix Integrations project, is a CLI and a Python Library, designed to easily automate Delphix operations that are commonly used in workflows.\nWe recognize that despite being fully-featured, Delphix APIs were hard to use. \nEven a simple operation could require multiple nested configuration arguments that users were not necessarily aware of. \ndxi takes a simpler approach and minimizes the knowledge required to automate Delphix data virtualization operations.\n\n\nWe also recognize that some users prefer out of the box integrations with third party tools. \nIn response, future iterations of Delphix Integrations will feature Delphix support within the most popular developer tools.\n\n\nPython library (dxi library)\n\u00b6\n\n\nThe dxi library is an interface for developing Python applications that connection & perform Virtualization and Self-Service operations across on a single or multiple Delphix Engines.\n\n\nWe chose Python because it's our customers\u2019 language of choice when creating DevOps, ProdOps and AI/ML workflows due to its flexibility, extensibility and support.\n\n\nExample Usage: \n\n    \nfrom\n \ndxi.database.dxi_refresh\n \nimport\n \nDXIRefresh\n     \n\n    \nref\n \n=\n \nDXIRefresh\n()\n\n    \nref\n.\nrefresh\n(\nname\n=\n\u201c\nvirtualdb1\n\u201d\n)\n\n\n\n\nCommand line interface (dxi cli)\n\u00b6\n\n\ndxi cli is an interface for calling delphix operations from the command line. \nIt is intended to work in different configurations and will soon be provided as a set of compiled executables for ease of use and compatibility.\n\n\nExample Usage:\n\n    dxi database refresh --name virtualdb1\n\n\n\nWhere to start\n\u00b6\n\n\nIf you are not familiar with Delphix, we recommend you to start with our \nDocumentation\n.\n\n\nIf you are already familiar with Delphix, but want to learn more about dxi, \nyou can go to the \nGetting started\n section or jump to Sample Integrations for some hands-on examples.\n\n\nQuestions?\n\u00b6\n\n\nIf you have questions, bugs or feature requests reach out to us via",
+            "text": "Overview\n\u00b6\n\n\nDelphix Integrations is Delphix's response to address the lack of data agility that many organizations face today in their DevOps, ProdOps and AI/ML workflows. \nMany of these ecosystems have solved the automation of code and infrastructure but still face a data bottlenecks. \nOur focus is to simplify the integration of Delphix operations into these ecosystems and to plug-in the required data agility into these workflows that are frequently used by developers, testers, analysts and administrators.\n\n\ndxi, the first release from Delphix Integrations project, is a CLI and a Python Library, designed to easily automate Delphix operations that are commonly used in workflows.\nWe recognize that despite being fully-featured, Delphix APIs were hard to use. \nEven a simple operation could require multiple nested configuration arguments that users were not necessarily aware of. \ndxi takes a simpler approach and minimizes the knowledge required to automate Delphix data virtualization operations.\n\n\nWe also recognize that some users prefer out of the box integrations with third party tools. \nIn response, future iterations of Delphix Integrations will feature Delphix support within the most popular developer tools.\n\n\nPython library (dxi library)\n\u00b6\n\n\nThe dxi library is an interface for developing Python applications that connection & perform Virtualization and Self-Service operations across on a single or multiple Delphix Engines.\n\n\nWe chose Python because it's our customers\u2019 language of choice when creating DevOps, ProdOps and AI/ML workflows due to its flexibility, extensibility and support.\n\n\nExample Usage: \n\n    \nfrom\n \ndxi.database.dxi_refresh\n \nimport\n \nDXIRefresh\n     \n\n    \nref\n \n=\n \nDXIRefresh\n()\n\n    \nref\n.\nrefresh\n(\nname\n=\n\u201c\nvirtualdb1\n\u201d\n)\n\n\n\n\nCommand line interface (dxi cli)\n\u00b6\n\n\ndxi cli is an interface for calling delphix operations from the command line. \nIt is intended to work in different configurations and will soon be provided as a set of compiled executables for ease of use and compatibility.\n\n\nExample Usage:\n\n    dxi database refresh --name virtualdb1\n\n\n\nWhere to start\n\u00b6\n\n\nIf you are not familiar with Delphix, we recommend you to start with our \nDocumentation\n.\n\n\nIf you are already familiar with Delphix, but want to learn more about dxi, \nyou can go to the \nGetting started\n section or jump to Sample Integrations for some hands-on examples.\n\n\nQuestions?\n\u00b6\n\n\nIf you have questions, bugs or feature requests reach out to us via \nemail",
             "title": "Overview"
         },
         {
@@ -27,7 +27,7 @@
         },
         {
             "location": "/index.html#questions",
-            "text": "If you have questions, bugs or feature requests reach out to us via",
+            "text": "If you have questions, bugs or feature requests reach out to us via  email",
             "title": "Questions?"
         },
         {
@@ -404,41 +404,6 @@
             "location": "/Release_Notes/0.1.3_Beta/ReleaseNotes/index.html#not-supported",
             "text": "Ingesting from Clustered Environments  Provisioning to Clusterd Environments  Multi-Tenant Databases  Authentication using API Keys  Hook Operations  Administrative/Engine Configuration Operations  Policies Related Operations  Users and Group Operations",
             "title": "Not Supported"
-        },
-        {
-            "location": "/Building_Your_Integrations/Jenkins/index.html",
-            "text": "A Jenkins Pipeline Example\n\u00b6\n\n\n\n\n\n\n\n\nCreate a virtual environment and use the following script to install the required libraries (pytest, pytest-html, and pytest-cov):\n\n     i) `\n\n\nii) \n./test/virtualEnvSetup.sh \"MyLocalEnv\"\n\n\n\n\n\n\nRun this command to activate the virtual environment created in step 1.\n\n\n. test/MyLocalEnv/bin/activate\n\n\n\n\n\n\nBuild the source code. It generates the build with name \nartifact.json\n:\n\n\ndvp build\n\n\n\n\n\n\nUploading a Plugin\n\u00b6\n\n\nUpload the \nartifact.json\n (generated in step 3) on Delphix Engine:\n\n    dvp upload -e <Delphix_Engine_Name> -u <username> --password <password>\n\n\n\nUnit Test\n\u00b6\n\n\nUnit test run: Make sure to build the source code (using \ndvp build\n) before running unit tests. Execute below command to run unit tests: \n\n\npytest test/\n.\n\n\nSummary Report\n\u00b6\n\n\nA report with the name \nReport.html\n gets generated in the \ntest\n directory which contains the summary of test passed vs failed. If any test case fails then a complete stack trace can be seen in that\n test case section.\n\n\nModule wise coverage report\n\u00b6\n\n\nThere is a report folder \nCodeCoverage\n(can change the folder name in config file \npytest.ini\n) generated in \ntest\n directory, which contains html files. These files help in source code coverage visualization, in which we can see statements processed and missed in each module of source code.\n\n\nDebugging Plugin Logs\n\u00b6\n\n\nDownload the Plugin logs using the following command:\n\n\ndvp download-logs -c plugin_config.yml -e <Delphix_Engine_Name> -u admin --password <password>",
-            "title": "A Jenkins Pipeline Example"
-        },
-        {
-            "location": "/Building_Your_Integrations/Jenkins/index.html#a-jenkins-pipeline-example",
-            "text": "Create a virtual environment and use the following script to install the required libraries (pytest, pytest-html, and pytest-cov): \n     i) `  ii)  ./test/virtualEnvSetup.sh \"MyLocalEnv\"    Run this command to activate the virtual environment created in step 1.  . test/MyLocalEnv/bin/activate    Build the source code. It generates the build with name  artifact.json :  dvp build",
-            "title": "A Jenkins Pipeline Example"
-        },
-        {
-            "location": "/Building_Your_Integrations/Jenkins/index.html#uploading-a-plugin",
-            "text": "Upload the  artifact.json  (generated in step 3) on Delphix Engine:     dvp upload -e <Delphix_Engine_Name> -u <username> --password <password>",
-            "title": "Uploading a Plugin"
-        },
-        {
-            "location": "/Building_Your_Integrations/Jenkins/index.html#unit-test",
-            "text": "Unit test run: Make sure to build the source code (using  dvp build ) before running unit tests. Execute below command to run unit tests:   pytest test/ .",
-            "title": "Unit Test"
-        },
-        {
-            "location": "/Building_Your_Integrations/Jenkins/index.html#summary-report",
-            "text": "A report with the name  Report.html  gets generated in the  test  directory which contains the summary of test passed vs failed. If any test case fails then a complete stack trace can be seen in that\n test case section.",
-            "title": "Summary Report"
-        },
-        {
-            "location": "/Building_Your_Integrations/Jenkins/index.html#module-wise-coverage-report",
-            "text": "There is a report folder  CodeCoverage (can change the folder name in config file  pytest.ini ) generated in  test  directory, which contains html files. These files help in source code coverage visualization, in which we can see statements processed and missed in each module of source code.",
-            "title": "Module wise coverage report"
-        },
-        {
-            "location": "/Building_Your_Integrations/Jenkins/index.html#debugging-plugin-logs",
-            "text": "Download the Plugin logs using the following command:  dvp download-logs -c plugin_config.yml -e <Delphix_Engine_Name> -u admin --password <password>",
-            "title": "Debugging Plugin Logs"
         }
     ]
 }

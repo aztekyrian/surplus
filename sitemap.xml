@@ -2,62 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>/index.html</loc>
-     <lastmod>2021-03-01</lastmod>
+     <lastmod>2021-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/GettingStarted/index.html</loc>
-     <lastmod>2021-03-01</lastmod>
+     <lastmod>2021-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/References/CLI_References/environment/index.html</loc>
-     <lastmod>2021-03-01</lastmod>
+     <lastmod>2021-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/References/CLI_References/database/index.html</loc>
-     <lastmod>2021-03-01</lastmod>
+     <lastmod>2021-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/References/CLI_References/snapshot/index.html</loc>
-     <lastmod>2021-03-01</lastmod>
+     <lastmod>2021-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/References/CLI_References/template/index.html</loc>
-     <lastmod>2021-03-01</lastmod>
+     <lastmod>2021-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/References/CLI_References/container/index.html</loc>
-     <lastmod>2021-03-01</lastmod>
+     <lastmod>2021-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/References/CLI_References/bookmark/index.html</loc>
-     <lastmod>2021-03-01</lastmod>
+     <lastmod>2021-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/References/CLI_References/branch/index.html</loc>
-     <lastmod>2021-03-01</lastmod>
+     <lastmod>2021-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/References/Library_References/LibrayReference/index.html</loc>
-     <lastmod>2021-03-01</lastmod>
+     <lastmod>2021-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>/Release_Notes/0.1.3_Beta/ReleaseNotes/index.html</loc>
-     <lastmod>2021-03-01</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>/Building_Your_Integrations/Jenkins/index.html</loc>
-     <lastmod>2021-03-01</lastmod>
+     <lastmod>2021-03-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
