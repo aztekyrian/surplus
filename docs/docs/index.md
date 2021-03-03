@@ -1,39 +1,51 @@
-# Welcome!
+# Overview
 
-Welcome to our introduction
+Delphix Integrations is Delphix's response to address the lack of data agility that many organizations face today in their DevOps, ProdOps and AI/ML workflows. 
+Many of these ecosystems have solved the automation of code and infrastructure but still face a data bottlenecks. 
+Our focus is to simplify the integration of Delphix operations into these ecosystems and to plug-in the required data agility into these workflows that are frequently used by developers, testers, analysts and administrators.
 
-## Overview
+dxi, the first release from Delphix Integrations project, is a CLI and a Python Library, designed to easily automate Delphix operations that are commonly used in workflows.
+We recognize that despite being fully-featured, Delphix APIs were hard to use. 
+Even a simple operation could require multiple nested configuration arguments that users were not necessarily aware of. 
+dxi takes a simpler approach and minimizes the knowledge required to automate Delphix data virtualization operations.
 
-There's something for everyone
-## What Does a Delphix Plugin do?
-
-The Delphix Engine is an appliance that lets you quickly and cheaply make **virtual copies** of large datasets. The engine has built-in support for interfacing with certain types of datasets, such as Oracle, SQL Server and ASE.
-
-When you develop a plugin, you enable end users to use your dataset type as if they were using a built-in dataset type, whether it’s MongoDB, Cassandra, or something else. Your plugin will extend the Delphix Engine’s capabilities by teaching it how to run essential virtual data operations on your datasets:
-
- - How to stop and start them
- - Where to store their data
- - How to make virtual copies
-
-These plugin operations are the building blocks of the Delphix Engine. From these building blocks, the engine can provide all of the normal Delphix functionality to the datasets you connect to such as:
-
- - Provisioning
- - Refreshing
- - Rewinding
- - Replication
- - Syncing
+We also recognize that some users prefer out of the box integrations with third party tools. 
+In response, future iterations of Delphix Integrations will feature Delphix support within the most popular developer tools.
 
 
-## Where to Start
+Python library (dxi library)
+----------------
 
-Read through the first few sections of this documentation, and we will walk you through how to get setup for development, then how to develop, build, and deploy your first plugin.
+The dxi library is an interface for developing Python applications that connection & perform Virtualization and Self-Service operations across on a single or multiple Delphix Engines.
 
-[Getting Started](Getting_Started.md) will show you how to setup the SDK. When you finish this section, you will have a full plugin development environment, and you will be ready to start building plugins.
+We chose Python because it's our customers’ language of choice when creating DevOps, ProdOps and AI/ML workflows due to its flexibility, extensibility and support.
 
-[Building Your First Plugin](/Building_Your_First_Plugin/Overview.md) will walk you step-by-step through the process of developing a very simple plugin. With it, you will learn the concepts and techniques that you will need to develop fully-fledged plugins. That does not mean this first plugin is useless—you will be able to virtualize simple datasets with it.
+Example Usage: 
+``` python
+    from dxi.database.dxi_refresh import DXIRefresh		
+    
+    ref = DXIRefresh()
+    ref.refresh(name=“virtualdb1”)
+```
 
-Once you complete these sections, use the rest of the documentation whenever you would like.
+Command line interface (dxi cli)
+----------------
 
-## Questions?
+dxi cli is an interface for calling delphix operations from the command line. 
+It is intended to work in different configurations and will soon be provided as a set of compiled executables for ease of use and compatibility.
 
-If you have questions, bugs or feature requests reach out to us via the [Virtualization SDK GitHub repository](https://github.com/delphix/virtualization-sdk/).
+Example Usage:
+```bash
+    dxi database refresh --name virtualdb1
+```
+
+Where to start
+----------------
+If you are not familiar with Delphix, we recommend you to start with our [Documentation](https://docs.delphix.com).
+
+If you are already familiar with Delphix, but want to learn more about dxi, 
+you can go to the [Getting started](/GettingStarted/index.html) section or jump to Sample Integrations for some hands-on examples.
+
+Questions?
+----------------
+If you have questions, bugs or feature requests reach out to us via [email](dxi-support@delphix.com)

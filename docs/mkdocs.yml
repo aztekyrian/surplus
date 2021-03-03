@@ -1,22 +1,23 @@
-site_name: Delphix Integration Hub
+site_name: Delphix Integrations
 theme:
   name: material
   custom_dir: 'material/'
   palette:
-    primary: purple
+    primary: blue
     accent:
-  logo: 'images/delphix-logo-white.png'
-  favicon: 'images/logo.png'
+  logo: 'image/logo.png'
+  favicon: 'image/logo.png'
   font:
     text: Helvetica Neue
     code: Ubuntu Mono
-  feature:
 
 copyright: Copyright &copy; 2021 Delphix Corp.
 
 google_analytics:
   - 'UA-35429885-3'
   - 'auto'
+
+use_directory_urls: false
 
 extra:
   social:
@@ -30,6 +31,8 @@ extra:
       link: https://www.linkedin.com/company/delphix
     - type: github
       link: https://github.com/delphix
+  version:
+    provider: mike
 
 extra_css:
   - 'stylesheets/extra.css'
@@ -41,6 +44,8 @@ markdown_extensions:
   - codehilite:
       guess_lang: false
   - meta
+  - pymdownx.highlight
+  - pymdownx.superfences
 
 plugins:
   - search

@@ -1,9 +1,18 @@
-select {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    border: none;
-    /* needed for Firefox: */
-    overflow:hidden;
-    width: 120%;
+.code_box_outer{
+    border-radius:5px;
+    border:1px solid #dedede;
+    background-color:#f1f1f1;
+}
+.code_box_title{
+    background-color:#ffffff;
+    border-bottom:1px solid #dedede;
+    padding:10px 15px;
+}
+.code_title{
+    color:#7c4dff;
+    font-weight:bold;
+    font-size:12px;
+}
+.data_highlight{
+    color:#1AD6F5;
 }

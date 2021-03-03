@@ -1,8 +1,6 @@
 arrange:
   - index.md
-  - Getting_Started.md
-  - Building_Your_First_Plugin
-  - Versioning_And_Upgrade
+  - GettingStarted.md
   - References
-  - New_Best_Practices
   - Release_Notes
+  - Building_Your_First_Integrations

@@ -1,0 +1,8 @@
+arrange:
+  - environment.md
+  - database.md
+  - snapshot.md
+  - template.md
+  - container.md
+  - bookmark.md
+  - branch.md
