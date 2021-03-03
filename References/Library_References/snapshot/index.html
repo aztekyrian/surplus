@@ -36,7 +36,7 @@
     
     
       
-        <title>dxi Library Reference - Delphix Integrations</title>
+        <title>DXISnapshot - Delphix Integrations</title>
       
     
     
@@ -81,7 +81,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#dxi-library-reference" tabindex="1" class="md-skip">
+      <a href="#dxisnapshot" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -107,7 +107,7 @@
                 Delphix Integrations
               </span>
               <span class="md-header-nav__topic">
-                dxi Library Reference
+                DXISnapshot
               </span>
             
           
@@ -350,6 +350,30 @@
           
           
 
+
+  <li class="md-nav__item">
+    <a href="../environment/index.html" title="DXIEnvironment" class="md-nav__link">
+      DXIEnvironment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../database/index.html" title="DXIDBOperations" class="md-nav__link">
+      DXIDBOperations
+    </a>
+  </li>
+
+        
+          
+          
+          
+
   
 
 
@@ -360,10 +384,108 @@
       
     
     
-    <a href="index.html" title="dxi Library Reference" class="md-nav__link md-nav__link--active">
-      dxi Library Reference
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        DXISnapshot
+      </label>
+    
+    <a href="index.html" title="DXISnapshot" class="md-nav__link md-nav__link--active">
+      DXISnapshot
     </a>
     
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-import" title="How to import:" class="md-nav__link">
+    How to import:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-object" title="Create object:" class="md-nav__link">
+    Create object:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classes" title="Classes:" class="md-nav__link">
+    Classes:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" title="Methods:" class="md-nav__link">
+    Methods:
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../template/index.html" title="DXITemplate" class="md-nav__link">
+      DXITemplate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../container/index.html" title="DXIContainer" class="md-nav__link">
+      DXIContainer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../bookmark/index.html" title="DXIBookmark" class="md-nav__link">
+      DXIBookmark
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../branch/index.html" title="DXIBranch" class="md-nav__link">
+      DXIBranch
+    </a>
   </li>
 
         
@@ -490,6 +612,43 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-import" title="How to import:" class="md-nav__link">
+    How to import:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-object" title="Create object:" class="md-nav__link">
+    Create object:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classes" title="Classes:" class="md-nav__link">
+    Classes:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" title="Methods:" class="md-nav__link">
+    Methods:
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -501,8 +660,92 @@
               
                 
                 
-                <h1 id="dxi-library-reference">dxi Library Reference<a class="headerlink" href="#dxi-library-reference" title="Permanent link">&para;</a></h1>
-<p>DXI Library Reference information is coming soon.</p>
+                <h1 id="dxisnapshot">DXISnapshot<a class="headerlink" href="#dxisnapshot" title="Permanent link">&para;</a></h1>
+<p>Snapshots represent points in time where a sync operation has occurred on either a dSource or VDB.
+This class provides methods for commonly used snapshot related operations.</p>
+<h4 id="how-to-import">How to import:<a class="headerlink" href="#how-to-import" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">dxi.snapshot.dxi_snapshot</span> <span class="kn">import</span> <span class="n">DXISnapshot</span>
+<span class="kn">from</span> <span class="nn">dxi.snapshot.dxi_snapshot</span> <span class="kn">import</span> <span class="n">SnapshotConstants</span>
+</code></pre></div>
+<h4 id="create-object">Create object:<a class="headerlink" href="#create-object" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>   obj = DXISnapshot() 
+</code></pre></div>
+<h4 id="classes">Classes:<a class="headerlink" href="#classes" title="Permanent link">&para;</a></h4>
+<div class="highlight"><pre><span></span><code>  <span class="k">class</span> <span class="nc">SnapshotConstants</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Define constants for Snapshot class and CLI usage</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">ALL_DBS</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="n">SINGLE_THREAD</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="n">POLL</span> <span class="o">=</span> <span class="mi">20</span>
+    <span class="n">CONFIG</span> <span class="o">=</span> <span class="s2">&quot;config/dxtools.conf&quot;</span>
+    <span class="n">LOG_FILE_PATH</span> <span class="o">=</span> <span class="s2">&quot;logs/dx_snapshot_db.log&quot;</span>
+    <span class="n">BCK_FILE</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">USE_BACKUP</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="n">CREATE_BACKUP</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="n">ENGINE_ID</span> <span class="o">=</span> <span class="s2">&quot;default&quot;</span>
+    <span class="n">NAME</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">GROUP</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">PARALLEL</span> <span class="o">=</span> <span class="mi">5</span>
+
+
+<span class="k">class</span> <span class="nc">DXISnapshot</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Create a snapshot a dSource or VDB</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span>
+        <span class="bp">self</span><span class="p">,</span>
+        <span class="n">name</span><span class="o">=</span><span class="n">SnapshotConstants</span><span class="o">.</span><span class="n">NAME</span><span class="p">,</span>
+        <span class="n">group</span><span class="o">=</span><span class="n">SnapshotConstants</span><span class="o">.</span><span class="n">GROUP</span><span class="p">,</span>
+        <span class="n">parallel</span><span class="o">=</span><span class="n">SnapshotConstants</span><span class="o">.</span><span class="n">PARALLEL</span><span class="p">,</span>
+        <span class="n">engine</span><span class="o">=</span><span class="n">SnapshotConstants</span><span class="o">.</span><span class="n">ENGINE_ID</span><span class="p">,</span>
+        <span class="n">poll</span><span class="o">=</span><span class="n">SnapshotConstants</span><span class="o">.</span><span class="n">POLL</span><span class="p">,</span>
+        <span class="n">config</span><span class="o">=</span><span class="n">SnapshotConstants</span><span class="o">.</span><span class="n">CONFIG</span><span class="p">,</span>
+        <span class="n">log_file_path</span><span class="o">=</span><span class="n">SnapshotConstants</span><span class="o">.</span><span class="n">LOG_FILE_PATH</span><span class="p">,</span>
+        <span class="n">all_dbs</span><span class="o">=</span><span class="n">SnapshotConstants</span><span class="o">.</span><span class="n">ALL_DBS</span><span class="p">,</span>
+        <span class="n">single_thread</span><span class="o">=</span><span class="n">SnapshotConstants</span><span class="o">.</span><span class="n">SINGLE_THREAD</span><span class="p">,</span>
+    <span class="p">)</span>
+</code></pre></div>
+<h4 id="methods">Methods:<a class="headerlink" href="#methods" title="Permanent link">&para;</a></h4>
+<p>Methods correspond to operations you can perform on the snapshot of dSource or VDB.   </p>
+<h1 id="create_snapshot">create_snapshot<a class="headerlink" href="#create_snapshot" title="Permanent link">&para;</a></h1>
+<p>To add an environment on a engine.</p>
+<h3 id="signature">Signature<a class="headerlink" href="#signature" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">create_snapshot</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">usebackup</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">create_bckup</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">bck_file</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+</code></pre></div>
+<h3 id="arguments">Arguments<a class="headerlink" href="#arguments" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Argument</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>usebackup</td>
+<td>bool</td>
+<td>Snapshot using "Most Recent backup"</td>
+<td>False</td>
+</tr>
+<tr>
+<td>create_bckup</td>
+<td>bool</td>
+<td>Create and ingest a new Sybase backup or copy-only MS SQL backup</td>
+<td>False</td>
+</tr>
+<tr>
+<td>bck_file</td>
+<td>str</td>
+<td>Name of the specific ASE Sybase backup file(s)</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
                 
                   
                 
@@ -523,7 +766,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../../CLI_References/branch/index.html" title="Branch" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../database/index.html" title="DXIDBOperations" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -532,19 +775,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Branch
+                DXIDBOperations
               </span>
             </div>
           </a>
         
         
-          <a href="../../../Release_Notes/0.1.3_Beta/ReleaseNotes/index.html" title="dxi 0.1.3 Controlled Release" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../template/index.html" title="DXITemplate" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                dxi 0.1.3 Controlled Release
+                DXITemplate
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
